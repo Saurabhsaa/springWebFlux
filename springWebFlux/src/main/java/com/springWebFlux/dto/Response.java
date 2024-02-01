@@ -9,6 +9,9 @@ public class Response implements Serializable {
 
     private int output;
 
+    public Response() {
+    }
+
     public Date getDate() {
         return date;
     }
